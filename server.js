@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 8080; // Default hosting provider port.
+const port = 3000; // Default hosting provider port.
 
 app.use(express.static("public"));
 
